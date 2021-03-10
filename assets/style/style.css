@@ -221,3 +221,14 @@ body {
         transform: translateY(0);
     }
 }
+
+/* Mobile  */
+@media (max-width:600px) {
+    .header {
+        grid-template-areas:
+            "hero"
+            "feature-1"
+            "feature-2"
+        ;
+    }
+}
