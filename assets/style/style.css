@@ -190,6 +190,22 @@ body {
     font-size: 0.8em;
 }
 
+/* Gallery  */
+.gallery {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5px;
+}
+
+.gallery h2 {
+    /* grid-column-start: 1;
+    grid-column-end: -1; */
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 /* Responsive Breakpoint  */
 
 /* Widescreen */
@@ -255,6 +271,10 @@ body {
 
 /* Mobile  */
 @media (max-width:600px) {
+    body {
+        margin: 15px;
+    }
+
     .header {
         grid-template-areas:
             "hero"
