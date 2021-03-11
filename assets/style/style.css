@@ -257,7 +257,7 @@ body {
         align-items: center;
         justify-content: space-evenly;
         z-index: 1;
-        background-color: #e05297;
+        background-color: #000;
         transform: translateY(-100%);
         transition: all 1s;
         opacity: 0;
